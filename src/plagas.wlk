@@ -1,9 +1,9 @@
 class Plaga {
-	var property poblacion
+	var property poblacion //poblacion : numero
 	
-	method transmiteEnfermedad() = poblacion >= 10
+/* devuelve un booleano */	method transmiteEnfermedad() = poblacion >= 10 
 	
-	method atacar(elemento){
+/* no devuelve nada */	method atacar(elemento){ /* elemento: objeto */ 
 		poblacion *= 1.1
 		elemento.fueAtacado(self)
 	}
@@ -11,17 +11,17 @@ class Plaga {
 
 class PlagaCucaracha inherits Plaga {
 
-	var property pesoPromedio
+	var property pesoPromedio /* pesoPromedio: numero */ 
 
-	method nivelDanio() {
+/*devuelve un numero */	method nivelDanio() {
 		return poblacion / 2
 	}
 
-	override method transmiteEnfermedad() {
+/*devuelve un booleano */	override method transmiteEnfermedad() {
 		return super() and pesoPromedio >= 10
 	}
 
-	override method atacar(elemento) {
+/*no devuelve nada */	override method atacar(elemento) { /*elemento: objeto */
 		super(elemento)
 		pesoPromedio += 2
 	}
@@ -30,11 +30,11 @@ class PlagaCucaracha inherits Plaga {
 
 class PlagaMosquito inherits Plaga {
 
-	method nivelDanio() {
+/*devuelve numero */	method nivelDanio() {
 		return poblacion
 	}
 
-	override method transmiteEnfermedad() {
+/*devuelve booleano */	override method transmiteEnfermedad() {
 		return super() and poblacion % 3 == 0
 	}
 
@@ -42,13 +42,13 @@ class PlagaMosquito inherits Plaga {
 
 class PlagaPulgas inherits Plaga {
 
-	method nivelDanio() = poblacion * 2
+/*devuelve numero */	method nivelDanio() = poblacion * 2
 
 }
 
 class PlagaGarrapatas inherits PlagaPulgas {
 
-	override method atacar(elemento) {
+/*no devuelve nada */	override method atacar(elemento) /*elemento: objeto */ {
 		poblacion *= 1.2
 		elemento.fueAtado(self)
 	}
