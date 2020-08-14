@@ -18,6 +18,10 @@ Elaborar e incluir aquí diagramas de clase para esta implementación, con dos v
 
 En ambos casos, incluir solamente los métodos y atributos que consideren importantes para que alguien que no conoce el dominio ni el código pueda entender el diseño. En la sección [software](https://obj2-unahur.github.io/software) del sitio de la materia tienen algunas herramientas que pueden resultar útiles para elaborar los diagramas.
 
+**UNICO***
+
+![Directamente desde un link](http://www.plantuml.com/plantuml/png/fP9DxjCm4CNtEOMNVwxGLJ-eW4MW4bpWrPu68ySJnZP2ghWxqoQuKHLbGRSpRzvlvjdRb26vzA6n0IcPFKGycsjZ30NgAMPE6nEyoemZm-SVf1NjeXFg8CT9zFPF_MvZOAtdg9e4kwgOCVQ58gStxOa296A6gg8MOTGiYTA11pY-jSyS295DywUPplh87UH-LVI_ABIb4zeODILXBLgE5vOygz2uqUWsscdrKcYNOM-O8Q13FSNCM2sIvOm7xIj2STLxnMMPExkYa4p65WEiTt0dOLVkqwyHlcYIDfjFdx_jxe2X-hO--XxLlMvpkZcFMZu7FAsG1J7rFjCnNaXwSd1FOIB3GXQ_nGDoAAg1_Ovaw7Ucw2htLSP0YJKydV9SzvvUx3sYruHgUVwwd7uMd_d_zbbodoLQGhTuwFhO1uXWGAwZrUcw5e7ERrLS-l0N)
+
 
 **PLAGAS**
 
