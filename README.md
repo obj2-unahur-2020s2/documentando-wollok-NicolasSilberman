@@ -20,6 +20,6 @@ En ambos casos, incluir solamente los métodos y atributos que consideren import
 
 Y de yapa, dos ejemplos de cómo incluir una imagen en Markdown (vean este archivo desde un editor para notar la diferencia):
 
-![Directamente desde un link](http://www.plantuml.com/plantuml/png/JSqn2W9138NXFgT8gLUmMb5hlS9Z9gu3cGmaMH74kxl25lR_zzuK2S-bAnL51DyKC_XDpEcmw2tbOdVnBXLrjp_mKUT17zhoqrBWA0y4ool5wl-2jQVe6TR63rxJnuQdDLmllm00)
+![Directamente desde un link](http://www.plantuml.com/plantuml/png/fP31QWCn34Jl-nK-RduXfq1RUYhiBqoyQcgGfQqibqBelrU1Od88EJHNpRoPiG_DOTuhJvdHMbeO9wJpbDAcHqOkAlj4ucGQDpT8gyNfHTx9AgrOvzq-7LMP81S771as4rCDIaD4leI4DFrCVoLFFJp87sY9lfra7RsFTcpKT34DgkZLRYbVnC-GelDkdAy6lMdxxCNrVtjkfe_ifVFfvaFlOwymmmOVw4Wwt_c2u0_XxPL_0G00)
 
 ![Desde un archivo local](./images/ejemplo-uml.png)
